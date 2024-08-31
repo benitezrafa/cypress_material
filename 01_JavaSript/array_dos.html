@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Demo</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    
+    let frutas=["Naranja", "Pera", "Melón", "Sandia"]
+   
+    /*
+    console.log("El numero de elementos es: "+frutas.length)
+    console.log("Mostras Pera: "+frutas[1])
+    */
+
+    /*
+    alert("El numero de elementos es: "+frutas.length)
+    alert("Mostras Sandia: "+frutas[3])
+
+    let datos={nom:"Rafael", ap:"Benitez", am:"da Silva"}
+    console.log(datos)
+    console.log(datos.nom)
+    */
+
+    /*
+    frutas.forEach(function(elemento,indice,array){
+       
+        console.log("El elemento es: "+elemento)
+        console.log("El indice es: "+indice)
+        console.log("El array es: "+array)
+      
+       console.log(indice,elemento)
+    })
+    */
+
+    /*
+    frutas.forEach(function(elemento,indice,array){  
+       console.log(indice,elemento)
+    })
+    */
+
+    //AGREGAR UN ELEMENTO AL FINAL
+    let nuevoFinal=frutas.push('Piña')
+    let nuevoFinal2=frutas.push('Fresa')
+    console.log("Se agrego Fresa")
+
+    //ELIMINAR EL ÚLTIMO ELEMENTO
+    let eliminarUltimo=frutas.pop()
+    console.log("Se elimino Fresa")
+
+    //AGREGAR AL PRINCIPIO
+    let agregarPrincipio=frutas.unshift('Mango')
+    console.log("Se agrego Mango")
+
+    //ELIMINAR EL PRIMERO
+    let eliminarPrincipio=frutas.shift()
+    console.log("Se elimino Mango")
+
+    //ENCONTRAR ELEMNTO EN UNA POSICIÓN
+    let buscarElemento1=frutas.indexOf('Melón')
+    console.log("Elemento encontrado: "+buscarElemento1)
+
+    //ELIMINAR ELEMENTO POR POSICIÓN
+    let buscarElemento=frutas.indexOf('Melón')
+    let eliminarPos=frutas.splice(buscarElemento, 1)
+    console.log("Se ha eliminado Melón")
+
+    console.log("Esto es Frutas uno")
+    frutas.forEach(function(elemento,indice,array){  
+       console.log(indice,elemento)
+    })
+
+    //COPIAR TODO EL ARRAY A OTRO
+    let frutas2=frutas.slice()
+    console.log("Esto es de Frutas 2")
+    frutas2.forEach(function(elemento,indice,array){  
+        console.log(indice,elemento)
+     })
+
+</script>

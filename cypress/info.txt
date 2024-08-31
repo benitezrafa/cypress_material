@@ -1,0 +1,20 @@
+1. npm init (iniciar package de node.js na pasta selecionada)
+
+2. npm install cypress --save-dev (instalar cypress no vscode)
+
+2.1 npm install -g (instalar livraria npx)
+
+2.2. npx cypress install --force (forçar a instalação)
+
+3. node_modules\.bin\cypress open (verificando modulos)
+
+4. npx cypress open (abrir dashboard cypress)
+
+5. parar consola = Ctrl+C
+
+6. Instalar plugin tab
+npm install -D cypress-plugin-tab
+
+7. línea de comando para ayuda de sintaxis de cypress
+
+/// <reference types="Cypress" />

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Demo</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    
+   /*
+    let x=10
+    console.log("1 Primer Proceso")
+
+    setTimeout(()=>{
+        x=x*3+2
+        console.log("2 Proceso Terminado: " +x)
+    })
+    console.log("3 Processo: "+x)
+   */
+
+   let x=10
+   console.log("01 - Proceso Uno")
+   const promesa=new Promise((resove,reject)=>{
+    setTimeout(()=>{
+        x=x*3+2
+        console.log("02 - Proceso dos... ")
+        resove(x)
+    })
+   },3000)
+
+   promesa.then(res =>{
+        console.log("03 - Proceso tres: "+ res)
+   })
+    
+</script>
