@@ -1,5 +1,7 @@
 /// <reference types='Cypress' />
 
+require('cypress-plugin-tab')
+
 describe('Ejemplo función Type Tab', () => {
 
     it('Type con Tab', () => {

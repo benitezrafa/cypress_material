@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Juan",
+    "email": "juan@gmail.com",
+    "password": "123456",
+    "company": "Cypress",
+    "website": "https://www.cypress.io",
+    "country": "Spain",
+    "city": "Madrid",
+    "address1": "Calle de la Princesa, 28",
+    "address2": "Calle de la Princesa, 28",
+    "state": "Madrid",
+    "postcode": "28001"
+  },
+  {
+    "name": "Manuel",
+    "email": "manuel@gmail.com",
+    "password": "123456",
+    "company": "Cypress",
+    "website": "https://www.cypress.io",
+    "country": "Spain",
+    "city": "Madrid",
+    "address1": "Calle de la Princesa, 28",
+    "address2": "Calle de la Princesa, 28",
+    "state": "Madrid",
+    "postcode": "28001"
+  },
+  {
+    "name": "Antonio",
+    "email": "antonio@gmail.com",
+    "password": "123456",
+    "company": "Cypress",
+    "website": "https://www.cypress.io",
+    "country": "Spain",
+    "city": "Madrid",
+    "address1": "Calle de la Princesa, 28",
+    "address2": "Calle de la Princesa, 28",
+    "state": "Madrid",
+    "postcode": "28001"
+  },
+  {
+    "name": "Ana",
+    "email": "ana@gmail.com",
+    "password": "123456",
+    "company": "Cypress",
+    "website": "https://www.cypress.io",
+    "country": "Spain",
+    "city": "Madrid",
+    "address1": "Calle de la Princesa, 28",
+    "address2": "Calle de la Princesa, 28",
+    "state": "Madrid",
+    "postcode": "28001"
+  },
+  {
+    "name": "Luisa",
+    "email": "luisa@gmail.com",
+    "password": "123456",
+    "company": "Cypress",
+    "website": "https://www.cypress.io",
+    "country": "Spain",
+    "city": "Madrid",
+    "address1": "Calle de la Princesa, 28",
+    "address2": "Calle de la Princesa, 28",
+    "state": "Madrid",
+    "postcode": "28001"
+  },
+  {
+    "name": "Elena",
+    "email": "elena@gmail.com",
+    "password": "123456",
+    "company": "Cypress",
+    "website": "https://www.cypress.io",
+    "country": "Spain",
+    "city": "Madrid",
+    "address1": "Calle de la Princesa, 28",
+    "address2": "Calle de la Princesa, 28",
+    "state": "Madrid",
+    "postcode": "28001"
+  }
+]

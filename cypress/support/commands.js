@@ -25,3 +25,9 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import 'cypress-plugin-tab';
+
+Cypress.Commands.add('Texto_visible', (selector, texto,tiempo) => {
+    let t=tiempo
+    cy.get(selector).should('be.visible').type(texto)
+    cy.wait(t)
+})

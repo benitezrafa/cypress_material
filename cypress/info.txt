@@ -14,7 +14,75 @@
 
 6. Instalar plugin tab
 npm install -D cypress-plugin-tab
+//Carga la función
+require('cypress-plugin-tab')
+
+6.2 Instalar plugin hacer upload archivos
+npm install --save-dev cypress-file-upload
+// comando para importar el plugin
+import 'cypress-file-upload'
+
+
+6.3 Instalar plugin drag_and_drop
+npm install --save-dev @4tw/cypress-drag-drop
+
+//Comando para importar la función
+require('@4tw/cypress-drag-drop')
 
 7. línea de comando para ayuda de sintaxis de cypress
 
 /// <reference types="Cypress" />
+
+
+8. Comando para copiar e colar na linha de baixo
+Ctrl + C
+Ctrl + v
+
+8.1 Atajo para activar o desactivar líneas de código
+Ctrl + ç
+
+
+9. Instalar plugin X-path
+npm install -D cypress-xpath
+
+//Carga la función
+require('cypress-xpath')
+
+10. Extension de Chrome:
+"https://chromewebstore.google.com/detail/hgimnogjllphhhkhlmebbmlgjoejdpjl?hl=es" = Xpath
+
+11. comandos por consola para ejecutar los testes
+node_modules\.bin\cypress run
+    o
+npx cypress run
+
+12. abrir testes desde el navegador con
+npx cypress run --headed
+npx cypress run --browser chrome
+
+13. comando para hacer el test en un test especifico
+npx cypress run --spec "(navegar nas pastas do projeto)"
+
+14. comando para hacer todos los tests de una sección
+npx cypress run --spec "la ruta \*"
+
+15. Para visualizar todos los custom commands en el archivos
+/support/commands.js
+los custom comandas son importantes para repetir muchas pruebas sin tener que codificarlo paso a paso, con un solo comando se puede hacer miles de pruebas
+
+16. Captura de videos de los test
+con el comando: npx cypress run --spec "ruta del test"
+se genera un video del test en la carpeta "cypress/videos"
+
+17. Captura de evidencias de los test
+con el comando: cy.screenshot("nombre de la captura")
+npx cypress run --spec "ruta del test"
+se genera una captura de pantalla de los test en la carpeta "cypress/screenshots"
+
+
+18.Página mockaroo
+https://mockaroo.com/
+Generador de datos para las pruebas de software: ejemplo de datos de usuarios .json
+
+19.Pagina para converter Excel a JSON
+https://beautifytools.com/excel-to-json-converter.php
