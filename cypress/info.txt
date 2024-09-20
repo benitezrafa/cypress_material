@@ -79,10 +79,52 @@ con el comando: cy.screenshot("nombre de la captura")
 npx cypress run --spec "ruta del test"
 se genera una captura de pantalla de los test en la carpeta "cypress/screenshots"
 
-
 18.Página mockaroo
 https://mockaroo.com/
 Generador de datos para las pruebas de software: ejemplo de datos de usuarios .json
 
 19.Pagina para converter Excel a JSON
 https://beautifytools.com/excel-to-json-converter.php
+
+20. Instalacion de plugin Cucumber
+npm install --save-dev cypress-cucumber-preprocessor
+
+21. Instalando Jenkins
+https://www.jenkins.io/download/
+
+21.1 Comandos en el prompt de windows:
+parar el servicio de jenkins: jenkins stop
+iniciar el servicio de jenkins: jenkins start
+
+22. #### Comandos GitHub ####
+1 - Inicializar repositorio: git init
+2 - Agregar repositorio: git add .
+3 - Agregando archivos por extencion: git add *.EXTENCION
+4 - Quitar archivos por extencion: git reset *.EXTENCION
+5 - // No sé para que sirve: git log --oneline --decorate --all --graph
+6 - Alias: git log
+7 - //No sé para que sirve con Alias: git config --global alias.lg "log --oneline --decorate --all --graph"
+8 - Verificar configuracion de Alias: git config --global -e
+9 - Regrecion a un commit en especifico: git reset "--soft o --hard" "id del commit"
+10 - Verificar todos los movimientos: git reflog
+11 - Crear el archivo para ignorar archivos y no subirlos al repositorio: .gitignore
+12 - No subir el archivo: (node_modules)
+13 - Verificar status: git status
+14 - Verificar logs: git log
+15 - Retornar los archivos deleteados: git checkout -- .
+16 - Confirmar commit: git commit -m "comentario"
+17 - Cambiar de rama: git branch -M main
+18 - Subir cambios a la rama: git push
+19 - Agregar repositorio remoto: git remote add origin "url del repositorio"
+20 - Subir el repositorio a GitHub: git push -u origin main
+21 - Bajar cambios de la rama: git pull
+
+
+
+23. En cado de no visualizar los testes en el dashboard de cypress, cambiar en el archivo "cypress.config.js":
+module.exports = {
+  e2e: {
+    specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
+  },
+}
+

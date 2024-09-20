@@ -102,9 +102,9 @@ describe('Carga por Fixture', () => {
                 const d_postcode=data.postcode
 
 
-                cy.window().then((win) => {
-                    cy.stub(win, 'open').as('windowOpen')
-                })
+                // cy.window().then((win) => {
+                //     cy.stub(win, 'open').as('windowOpen')
+                // })
                 
                 cy.visit('https://www.lambdatest.com/selenium-playground/input-form-demo?_gl=1*sh29si*_up*MQ..*_ga*NjUxMDYzNjE2LjE3MjY0NzEzNDI.*_ga_ETKR49VB7Y*MTcyNjQ3MTM0MS4xLjAuMTcyNjQ3MTM0MS4wLjAuMA..')
                 cy.title().should("eq","Selenium Grid Online | Run Selenium Test On Cloud")
